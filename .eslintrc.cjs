@@ -17,5 +17,7 @@ module.exports = {
     es2021: true,
     node: true
   },
-  rules: {}
+  rules: {
+    'react/react-in-jsx-scope': 'off'
+  }
 };

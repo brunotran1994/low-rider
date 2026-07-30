@@ -2,6 +2,9 @@
   "name": "low-rider",
   "version": "0.0.1",
   "private": true,
+  "engines": {
+    "node": ">=20.19.0"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -28,6 +31,7 @@
     "@testing-library/jest-dom": "^6.0.0",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
-    "rollup-plugin-visualizer": "^5.9.1"
+    "rollup-plugin-visualizer": "^5.9.1",
+    "jsdom": "^24.0.0"
   }
 }
